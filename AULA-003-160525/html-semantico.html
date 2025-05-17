@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <!-- Título Principal -->
+        <h1>HTML Semântico</h1>
+        <img src="/img/senac-logo.svg" alt="Logo do Senac" width="100px">
+        <!-- Links de navegação -->
+        <nav>
+            <ul>
+                <li><a href="#HOME">Home</li>
+                <li><a href="SOBRE">Sobre nós</a></li>
+                <li><a href="#CONTATO">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Bem-vindo</h2>
+            <p>Este é um exemplo de página com estrutura semântico utilizando HTML5. <br>
+                A utilização dela é muito importante por alguns motivos:
+            </p>
+
+            <ul>
+                <li>Acessibilidade</li>
+                <li>SEO (Otimização para buscadores)</li>
+                <li>Manutenção do Código</li>
+                <li>Consistência e Padrões</li>
+            </ul>
+        </section>
+
+        <article>
+            <h2>Notícia</h2>
+            <p>Hoje foi publicada uma nova atualização sobre os cursos de programação no SENAC.</p>
+            <figure>
+                <img src="/img/curso-foto.webp" alt="" width="250">
+                <figcaption>Alunos no SENAC Largo Treze</figcaption>
+            </figure>
+        </article>
+
+        <aside>
+            <h3>Links úteis</h3>
+            <ul>
+                <li><a href="#">Documentação HTML</a></li>
+                <li><a href="https://developer.mozilla.org/pt-BR/">MDN Web Docs</a></li>
+            </ul>
+        </aside>
+
+        <footer>
+            <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Digite o seu nome"><br>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite o seu melhor e-mail"><br>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="Mensagem" id="mensagem" placeholder="Digite uma mensagem..."></textarea>
+        </footer>
+    </main>
+</body>
+
+</html>
