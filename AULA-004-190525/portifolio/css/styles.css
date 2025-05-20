@@ -64,31 +64,74 @@ h1 {
     padding: 10px 15px;
     color: #fff;
     cursor: pointer;
+    margin-top: 15px;
+    border-radius: 4px;
+    transition: .2s all;
+}
+
+.principal button:hover {
+    border-radius: 50px;
+    transition: 1s all;
 }
 
 #formacao {
     background-color: #b9e2ed;
+    padding: 20px;
 }
 
-.formacao-item h2 {
-    font-size: 1rem;
-    font-weight: 200;
+.formacao-content h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #4d5b70;
 }
 
 .formacao-content {
     max-width: 1000px;
-    margin: 80px auto;
-}
-
-.formacao-itens {
-    flex-direction: row;
     margin: 20px auto;
     justify-content: center;
 }
 
+.formacoes-itens {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* opcional: espaço entre os itens */
+    flex-wrap: wrap; /* para ajustar bem em telas menores */
+}
+
+
 .formacao-item {
     display: inline-block;
     background-color: #f2f2f2;
-    margin: 20px 0;
-    width: 300px;
+    margin: 10px 0;
+    width: 400px;
+    padding: 30px;
+    color: #4d5b70;
+}
+
+.formacao-item .curso {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.formacao-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.instituicao {
+    text-align: left;
+}
+
+.grau {
+    background-color: #4d5b7080;
+    color: #fff;
+    max-width: 100px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.instituicao img {
+    width: 150px;
 }
