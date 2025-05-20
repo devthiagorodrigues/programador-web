@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geist", sans-serif;
+    background-color: #fafafa;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    text-align: right;
+    padding: 10px 0;
+    margin: 0 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+main {
+    margin: 80px auto;
+    max-width: 1000px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.principal p{
+    font-size: 0.9rem;
+}
+
+.principal {
+    display: flex;
+    gap: 50px;
+}
+
+.principal img {
+    border-radius: 100%;
+    height: 300px;
+}
+
+.principal button {
+    border: 0;
+    background-color: #4d5b70;
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#formacao {
+    background-color: #b9e2ed;
+}
+
+.formacao-item h2 {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.formacao-content {
+    max-width: 1000px;
+    margin: 80px auto;
+}
+
+.formacao-itens {
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.formacao-item {
+    display: inline-block;
+    background-color: #f2f2f2;
+    margin: 20px 0;
+    width: 300px;
+}
