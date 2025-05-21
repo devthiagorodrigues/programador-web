@@ -44,6 +44,10 @@ h1 {
     font-size: 2.5rem;
 }
 
+.principal span {
+    color: #4d5b70;
+}
+
 .principal p{
     font-size: 0.9rem;
 }
@@ -134,4 +138,17 @@ h1 {
 
 .instituicao img {
     width: 150px;
+}
+
+.experiencia-content {
+    max-width: 1000px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.experiencia-content h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #4d5b70;
 }
