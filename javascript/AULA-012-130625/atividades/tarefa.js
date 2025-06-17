@@ -13,7 +13,7 @@ const tarefas = [
 
 console.table(tarefas)
 
-const tarefasReturn = tarefas.map((tarefa) => {
+const tarefasReturn = tarefas.map(tarefa => {
     let tituloUpper = tarefa.titulo.toUpperCase();
 
     let statusTexto = ""
