@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>Eventos de Mouse</title>
+</head>
+
+<body>
+    <div>
+        <label for="onMouseEnter">Entrada do Mouse:</label>
+        <input type="text" id="onMouseEnter" onmouseenter="mouseEnterEvent()">
+    </div>
+    <br>
+    <div>
+        <label for="onChange">Mudança de Valor:</label>
+        <input type="text" id="onChange" onchange="onChangeEvent()">
+    </div>
+    <br>
+    <div>
+        <label for="onFocus">Entrada de Foco:</label>
+        <input type="text" id="onFocus" onfocus="onFocusEvent()">
+    </div>
+    <br>
+    <div>
+        <label for="onBlur">Saída de Foco:</label>
+        <input type="text" id="onBlur" onblur="onBlurEvent()">
+    </div>
+    <br>
+    <button onclick="alert('Eba! Você clicou no botão! 😄')">
+        Clique-me!
+    </button>
+    
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
